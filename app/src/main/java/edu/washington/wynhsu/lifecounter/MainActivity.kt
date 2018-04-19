@@ -31,12 +31,6 @@ class MainActivity : AppCompatActivity() {
             btnClick(-1, array!![2], key)
             btnClick(-5, array!![3], key)
         }
-
-//        btnClick(1, btnP1p1, txtLP1)
-//        btnClick(5, btnP1p5, txtLP1)
-//        btnClick(-1, btnP1n1, txtLP1)
-//        btnClick(-5, btnP1n5, txtLP1)
-
     }
 
     fun btnClick(num: Int, btn: Button, txt: TextView) {
